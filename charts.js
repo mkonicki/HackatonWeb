@@ -2,7 +2,7 @@ $( document ).ready(function() {
     $.ajax({
         url: 'http://10.10.4.196:9000/summary',
         type: 'GET',
-        dataType: 'text',
+        dataType: 'jsonp',
         success: function(data){
                     // var keys = [];
                     // var vals = [];
